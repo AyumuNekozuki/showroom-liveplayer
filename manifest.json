@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "SHOWROOM Live Player",
+    "version": "0.9.0",
+    "description": "SHOWROOMの配信画面を見やすくします",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.showroom-live.com/*"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "css": [
+                "main.css"
+            ]
+        }
+    ]
+}

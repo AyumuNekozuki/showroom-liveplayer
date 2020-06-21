@@ -1,0 +1,123 @@
+@media screen and (min-width: 1700px) {
+
+  /*ヘッダー*/
+  .l-room-header{
+    z-index: 60 !important;
+  }
+  .room-header{
+    background-color: rgba(38,50,56) !important;
+  }
+
+  /*配信画面*/
+  .l-room-video{
+    max-width: 1000px !important;
+    max-height: 562.5px !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    margin-left: 250px !important;
+    left: 0 !important;
+    top: 75px !important;
+  }
+  #js-room-video {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*テロップ*/
+  .l-telop{
+    max-width: 1000px !important;
+    width: 100% !important;
+    left: 0 !important;
+    top: 75px !important;
+    margin-left: 250px !important;
+  }
+  #telops-container, #telops-container p{
+    min-width: 100% !important;
+  }
+
+  /*アバター*/
+  .l-room-avatar canvas{
+    padding-top:300px !important;
+  }
+
+  /*コメント投稿*/
+  #js-room-comment-wrapper{
+    left: 250px !important;
+    top: 640px !important;
+    max-width: 750px;
+    width: 100% !important;
+    display: block !important;
+    background-color: rgba(38,50,56) !important;
+  }
+  #js-room-comment-wrapper form input{
+    max-width: 675px !important;
+    width: 100%;
+  }
+  .comment-input-text{
+    line-height: 36px !important;
+  }
+
+  /*終了時*/
+  #info-board{
+    max-width: 52.08% !important;
+    max-height: 52.08% !important;
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+    margin-left: 250px !important;
+    left: 0 !important;
+  }
+  div.info-board>p.info-board__room-name{
+    width: 100% !important;
+  }
+  div.info-board>img.info-board__room-image{
+    width: 520px !important;
+    height: 292px !important;
+  }
+
+  /*youtube*/
+  .l-room-youtube, #youtubePlayer{
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  /*ログ*/
+  .log-area,#gift-area,#twitter-dialog{
+    background-color: rgba(38,50,56) !important;
+    top: 75px !important;
+    height: 640px !important;
+    left: 1250px !important;
+    width: 380px !important;
+    right: 0 !important;
+    cursor: default !important;
+  }
+
+  /*twitter*/
+  .twitter-dialog{
+    height: 570px !important;
+  }
+  #twitter-textarea{
+    max-width: 340px !important;
+  }
+
+  /*カーソル*/
+  .log-area .title,.comment-form{
+    cursor: default !important;
+  }
+
+  /*gift*/
+  .gift-area #room-gift-item-wrapper{
+    height: 560px !important;
+  }
+
+  /*window resize*/
+  .ui-resizable-handle{
+    display: none !important;
+  }
+
+  /*footer menu*/
+  #comment-area-wrapper{
+    display: none !important;
+  }
+}
