@@ -1,5 +1,9 @@
 @media screen and (min-width: 1700px) {
 
+  .ex_footer_button_hide{
+    display: none !important;
+  }
+
   /*ヘッダー*/
   .l-room-header{
     z-index: 60 !important;
@@ -44,7 +48,7 @@
   /*コメント投稿*/
   #js-room-comment-wrapper{
     left: 250px !important;
-    top: 640px !important;
+    top: 637.5px !important;
     max-width: 750px;
     width: 100% !important;
     display: block !important;
@@ -86,16 +90,40 @@
   .log-area,#gift-area,#twitter-dialog{
     background-color: rgba(38,50,56) !important;
     top: 75px !important;
-    height: 640px !important;
+    height: 610px !important;
     left: 1250px !important;
     width: 380px !important;
     right: 0 !important;
     cursor: default !important;
+    z-index: 500 !important;
+  }
+  .log-area div ul{
+    height: 560px !important;
+  }
+  .gift-area #room-gift-item-wrapper{
+    height: 530px !important;
+  }
+
+  /*コメントログ*/
+  #comment-log{
+    display: block !important;
+    z-index: 499 !important;
+  }
+  #icon-menu-commentlog{
+    display: none !important;
+  }
+
+  /*gift*/
+  #gift-area{
+    z-index: 501 !important;
   }
 
   /*twitter*/
+  #twitter-dialog{
+    z-index: 502 !important;
+  }
   .twitter-dialog{
-    height: 570px !important;
+    height: 540px !important;
   }
   #twitter-textarea{
     max-width: 340px !important;
@@ -104,11 +132,6 @@
   /*カーソル*/
   .log-area .title,.comment-form{
     cursor: default !important;
-  }
-
-  /*gift*/
-  .gift-area #room-gift-item-wrapper{
-    height: 560px !important;
   }
 
   /*window resize*/
