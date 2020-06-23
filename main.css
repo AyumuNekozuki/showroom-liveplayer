@@ -1,12 +1,87 @@
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1635px) {
 
   .ex_footer_button_hide{
     display: none !important;
   }
+  #js-onlive-list{
+    z-index: 505 !important;
+  }
+
+  /*フルスク*/
+  .ex-hukidashi{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  .ex-hukidashi::before{
+    content: "▲";
+    position: absolute;
+    color: white;
+    top: -12.5px;
+    left: 21.5px;
+  }
+  #ex_fullsc-div{
+    z-index: 507;
+    width: 124px;
+    height: 50px;
+    position: absolute;
+    top: 637.5px;
+    left: 1125px;
+    background-color: rgb(38, 50, 56);
+    padding: 10px auto;
+    border-right: #3C474C 1px solid;
+  }
+  #ex-fullsc-check{
+    display: none;
+  }
+  #ex-fullsc-label{
+    display: inline-block;
+    width: 30px;
+    font-size: 20px;
+    margin: 10px 12.5px;
+    color:gray;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #ex-fullsc-label:hover{
+    text-decoration: none;
+  }
+  #ex-fullsc-label:hover + .ex-hukidashi{
+    display: block;
+  }
+  #ex-fullsc-label:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f065";
+    font-weight: 900;
+    height: 30px;
+    width: 30px;
+  }
+  #ex-help{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 30px;
+    text-align: center;
+    margin: 10px 12.5px;
+  }
+  #ex-help:hover{
+    background-color: #1DE9B6;
+    text-decoration: none;
+  }
+  #ex-help::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f128";
+    font-weight: 900;
+    height: 30px;
+    width: 30px;
+  }
 
   /*ヘッダー*/
-  .l-room-header{
-    z-index: 60 !important;
+  .l-room-header,#js-room-head-other-select-list{
+    z-index: 600 !important;
   }
   .room-header{
     background-color: rgba(38,50,56) !important;
@@ -49,13 +124,14 @@
   #js-room-comment-wrapper{
     left: 250px !important;
     top: 637.5px !important;
-    max-width: 750px;
+    max-width: 875px;
     width: 100% !important;
     display: block !important;
     background-color: rgba(38,50,56) !important;
+    padding: 10px !important;
   }
   #js-room-comment-wrapper form input{
-    max-width: 675px !important;
+    max-width: 810px !important;
     width: 100%;
   }
   .comment-input-text{
@@ -90,18 +166,19 @@
   .log-area,#gift-area,#twitter-dialog{
     background-color: rgba(38,50,56) !important;
     top: 75px !important;
-    height: 610px !important;
+    height: 612px !important;
     left: 1250px !important;
     width: 380px !important;
     right: 0 !important;
     cursor: default !important;
     z-index: 500 !important;
+    
   }
   .log-area div ul{
     height: 560px !important;
   }
   .gift-area #room-gift-item-wrapper{
-    height: 530px !important;
+    height: 532px !important;
   }
 
   /*コメントログ*/
@@ -143,4 +220,10 @@
   #comment-area-wrapper{
     display: none !important;
   }
+
+  /*user plof*/
+  #user-profile-view{
+    z-index: 550 !important;
+  }
+
 }

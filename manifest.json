@@ -8,6 +8,9 @@
             "matches": [
                 "https://www.showroom-live.com/*"
             ],
+            "js": [
+                "script.js"
+            ],
             "css": [
                 "main.css"
             ]
