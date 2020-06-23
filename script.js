@@ -12,7 +12,7 @@ ex_fullsc.innerHTML = `
   <label id="ex-fullsc-label" for="ex-fullsc-check" class="ex-fullsc">
   </label>
   <div class="ex-hukidashi">近日実装！</div>
-  <a id="ex-help" href="https://twitter.com" target="_blank"></a>
+  <a id="ex-help" href="https://github.com/AyumuNekozuki/showroom-liveplayer/wiki" target="_blank"></a>
 `;
 
 js_room_section.appendChild(ex_fullsc);
