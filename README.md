@@ -1,8 +1,9 @@
-![](https://img.shields.io/github/license/AyumuNekozuki/showroom-liveplayer)
+![](https://img.shields.io/github/license/AyumuNekozuki/showroom-liveplayer) ![](https://img.shields.io/chrome-web-store/v/gcjeljdjmnjhgldhjhomjfacoedjaabg)
 
 # SHOWROOM LivePlayer
 SHOWROOMを見やすくする拡張機能です。
 
+[ChromeWebStore](https://chrome.google.com/webstore/detail/showroom-live-player/gcjeljdjmnjhgldhjhomjfacoedjaabg)
 
 ## Preview
 
