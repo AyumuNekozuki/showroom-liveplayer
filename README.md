@@ -3,6 +3,7 @@
 # SHOWROOM LivePlayer
 SHOWROOMを見やすくする拡張機能です。
 
+## ダウンロードはこちらから
 [ChromeWebStore](https://chrome.google.com/webstore/detail/showroom-live-player/gcjeljdjmnjhgldhjhomjfacoedjaabg)
 
 ## Preview
